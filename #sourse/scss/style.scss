@@ -2,11 +2,15 @@
 @import "_fonts";
 @import "_vars";
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
+    margin: 0;
     font-family: $ffR;
     color: $colorT;
     -webkit-font-smoothing: antialiased;
-    overflow: hidden;
 }
 
 //Container
