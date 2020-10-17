@@ -3,7 +3,8 @@
 @import "_vars";
 
 html, body {
-    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 body {
@@ -72,13 +73,14 @@ body {
     &__inner {
         padding: 14px 0;
     }
-}
-
-.header.fixed {
+    &.fixed {
     width: 100%;
     background-color: #fff;
     position: fixed;
 }
+}
+
+
 
 //=====================
 
@@ -385,13 +387,14 @@ body {
     &__inner {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 -30px;
+        margin: 0 -15px;
     }
 
     &__item {
         width: 33.333%;
-        padding: 0 30px;
+        padding: 0 15px;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     &__photo {
