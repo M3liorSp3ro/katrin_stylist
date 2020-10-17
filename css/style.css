@@ -92,6 +92,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #000;
   -webkit-font-smoothing: antialiased;
+  overflow: hidden;
 }
 
 .container {
