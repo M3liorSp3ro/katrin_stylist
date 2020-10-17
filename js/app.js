@@ -13,8 +13,6 @@ $(function () {
         introH = intro.innerHeight();
         scrollPos = $(this).scrollTop();
 
-        console.log(introH);
-
         checkScroll(scrollPos, introH);
         
     });
